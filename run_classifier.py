@@ -1,12 +1,7 @@
 import torch
-from torch.functional import split
 import torchvision.transforms as transforms
-import matplotlib.pyplot as plt
 import numpy as np
-import torch.nn.functional as F
 import torch.optim as optim
-from torch.utils import data
-from PIL import Image
 from torchvision import datasets
 from torch.utils.data import DataLoader
 from torchvision import models
@@ -14,19 +9,10 @@ import torch.nn as nn  # Add on classifier
 import os
 import sys
 from torch.utils.data.sampler import SubsetRandomSampler
-import cv2
-from torch.autograd import Variable
 from datetime import datetime
 import json
 from sklearn.metrics import classification_report, confusion_matrix
-import argparse
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
-from sklearn.metrics import f1_score
-from sklearn.metrics import cohen_kappa_score
-from sklearn.metrics import confusion_matrix
-from Utils import calculate_tsne, calculate_umap, rand_cmap, plot_confusion_matrix
+from Utils import calculate_tsne, calculate_umap, plot_confusion_matrix
 from Logger import Logger
 import csv
 
