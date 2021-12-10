@@ -12,7 +12,7 @@ Automated shot type classification plays a significant role in film preservation
 ![alt text](readme_imgs/stc_overview.png)
 
 ## Download
-Zenodo: 
+Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5770202.svg)](https://doi.org/10.5281/zenodo.5770202)
 
 ## Dataset Details
 
