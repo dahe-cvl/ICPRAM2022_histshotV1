@@ -1,0 +1,7 @@
+torch
+torchvision
+matplotlib
+scikit-learn 
+scipy
+umap-learn
+wandb
